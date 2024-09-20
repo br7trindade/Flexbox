@@ -59,3 +59,14 @@ hr{
 
 
 }
+
+.conteiner-row{
+    display: flex;
+    flex-direction: row;
+/* elas são indiferente para flex*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+
+
+}
