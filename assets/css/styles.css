@@ -124,3 +124,113 @@ hr{
     color: rgb(197, 29, 29);
     padding: 30px;
 }
+
+/* propriedade justify-contente */
+
+
+.justifyContentCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+/****  propriedade center ****/
+    background-color: rgb(99, 158, 111);
+    padding: 16px;
+    height: 500px;
+}
+/* testando o flex start (propriedade do Justify-content*/
+
+    .justifyContentFlexStart{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; 
+
+    /**** propriedade flex-start ****/
+    
+        background-color: rgb(89, 191, 219);
+        padding: 16px;
+        height: 500px;
+    }
+
+/**** testanto o flex end (propriedade do jsutify-content ******/
+
+.justifyContentFlexEnd{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end; 
+
+    /**** propriedade end ****/
+    
+        background-color: rgb(89, 191, 219);
+        padding: 16px;
+        height: 500px;
+    }
+
+    /**** *****/
+
+    .justifyContentSpaceBetween{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+    
+        background-color: rgb(89, 191, 219);
+        padding: 16px;
+        height: 500px;
+    }
+
+    .justifyContentSpaceEvenly{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; 
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+    
+        background-color: rgb(89, 191, 219);
+        padding: 16px;
+        height: 500px;
+    }
+
+
+    .justifyContentSpaceAround{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; 
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+    
+        background-color: rgb(89, 191, 219);
+        padding: 16px;
+        height: 500px;
+    }
+
+    /* nova propriedade align-items abaixo*/
+
+    .alignItems{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+    
+        background-color: rgb(89, 191, 219);
+        padding: 16px;
+        height: 500px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
