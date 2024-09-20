@@ -70,3 +70,14 @@ hr{
 
 
 }
+
+.conteiner-column{
+    display: flex;
+    flex-direction: column;
+/* elas são indiferente para flex*/
+    background-color: black;
+    padding: 16px;
+    height: 500px;
+
+
+}
