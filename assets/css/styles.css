@@ -1,4 +1,4 @@
-.titulo-pagina{
+.tituloPagina{
     text-align: center;
     font-style: italic;
     font-size: 3em;
@@ -14,7 +14,7 @@ hr{
 }
 /* *********** estilizando o bloco*********/
 
-.bloco-1{
+.bloco1{
     background-color: lightblue;
     height: 150px;
     width: 150px;
@@ -25,7 +25,7 @@ hr{
 
 }
 
-.bloco-2{
+.bloco2{
     background-color:grey;
     height: 150px;
     width: 150px;
@@ -36,7 +36,7 @@ hr{
 
 }
 
-.bloco-3{
+.bloco3{
     background-color: green;
     height: 150px;
     width: 150px;
@@ -60,7 +60,7 @@ hr{
 
 }
 
-.conteiner-row{
+.conteinerRow{
     display: flex;
     flex-direction: row;
 /* elas são indiferente para flex*/
@@ -70,8 +70,10 @@ hr{
 
 
 }
+/* a propriedade é flex-direction */
+/* column e row são direções*/
 
-.conteiner-column{
+.conteinerColumn{
     display: flex;
     flex-direction: column;
 /* elas são indiferente para flex*/
@@ -80,4 +82,45 @@ hr{
     height: 500px;
 
 
+}
+/* o row-reverse troca a ordem por exemplo: 3, 2, 1*/
+.conteinerRowReverse{
+    display: flex;
+    flex-direction: row-reverse;
+/* elas são indiferente para flex*/
+    background-color: rgb(137, 118, 155);
+    padding: 16px;
+    height: 500px;
+
+
+}
+
+.conteinerColumnReverse{
+    display: flex;
+    flex-direction: column-reverse;
+/* elas são indiferente para flex*/
+    background-color: rgb(99, 158, 111);
+    padding: 16px;
+    height: 500px;
+
+
+}
+/* é importante colocar no iniciou do código*/
+
+.nomePropriedade{
+    font-size: 2em;
+    font-weight: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    padding: 20px;
+
+}
+
+.valorPropriedade{
+    font-size: 1,5em;
+    font-weight: 400px
+    ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 30px;
 }
