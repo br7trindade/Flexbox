@@ -1,0 +1,14 @@
+.titulo-pagina{
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkblue
+    margin: 10px
+}
+
+hr{
+    margin:
+     15px;
+}
