@@ -419,20 +419,20 @@ hr{
 
 /* Shorthand*/
 
-.conteinerFlexWRapReverse{
+
+.conteinerFlexFlowRoweNowrap{
     display: flex;
-    flex-direction: row;
+   /* flex-direction: row;*/
     justify-content: center;
     align-items: center; 
-    flex-wrap: wrap-reverse;
+   /* flex-wrap: wrap-reverse;*/
+   flex-flow: row nowrap;
+
 
 /**** propriedades acima: disposição dos elementos ****/
 /*** Propriedades abaixo: textura dos elementos****/
 
     background-color: rgb(8, 14, 16);
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-bottom: 16px;
-    padding-right: 16px;
+    padding: 16px;
     height: 500px;
 }
