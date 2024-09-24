@@ -417,16 +417,19 @@ hr{
     height: 500px;
 }
 
-/* Shorthand*/
+
+/* Aula apartir de 24//09 */
+/* Novas propriedades */
 
 
-.conteinerFlexFlowRoweNowrap{
+.conteinerAlignContent{
     display: flex;
-   /* flex-direction: row;*/
+    flex-direction: row;
     justify-content: center;
     align-items: center; 
-   /* flex-wrap: wrap-reverse;*/
-   flex-flow: row nowrap;
+    flex-wrap: wrap;
+    align-content: center;
+   
 
 
 /**** propriedades acima: disposição dos elementos ****/
@@ -436,13 +439,48 @@ hr{
     padding: 16px;
     height: 500px;
 }
-/* Aula apartir de 24//09 */
-/* Novas propriedades */
 
 
+.conteinerAlignContentFlexStart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+   
 
 
+/**** propriedades acima: disposição dos elementos ****/
+/*** Propriedades abaixo: textura dos elementos****/
 
+    background-color: rgb(8, 14, 16);
+    padding: 16px;
+    height: 500px;
+}
+
+
+.conteinerAlignContentFlexEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    align-content: flex-end;
+   
+
+
+/**** propriedades acima: disposição dos elementos ****/
+/*** Propriedades abaixo: textura dos elementos****/
+
+    background-color: rgb(8, 14, 16);
+    padding: 16px;
+    height: 500px;
+}
+
+
+/******       *******/
+/******       *******/
 
 
 
