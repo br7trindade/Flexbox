@@ -1,20 +1,21 @@
-.tituloPagina{
+.tituloPagina {
     text-align: center;
     font-style: italic;
     font-size: 3em;
     font-weight: 900;
-    font-family:Arial, Helvetica, sans-serif;
-    color:rgb(77, 77, 226)
-    margin: 10px
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(77, 77, 226) margin: 10px
 }
+
 /**************** colocando uma margem no titulo**********/
-hr{
+hr {
     margin:
-     15px;
+        15px;
 }
+
 /* *********** estilizando o bloco*********/
 
-.bloco1{
+.bloco1 {
     background-color: lightblue;
     height: 150px;
     width: 150px;
@@ -25,8 +26,8 @@ hr{
 
 }
 
-.bloco2{
-    background-color:grey;
+.bloco2 {
+    background-color: grey;
     height: 150px;
     width: 150px;
     text-align: center;
@@ -36,7 +37,7 @@ hr{
 
 }
 
-.bloco3{
+.bloco3 {
     background-color: green;
     height: 150px;
     width: 150px;
@@ -47,7 +48,7 @@ hr{
 
 }
 
-.bloco1SemAltura{
+.bloco1SemAltura {
     background-color: rgb(223, 237, 20);
     width: 150px;
     text-align: center;
@@ -56,7 +57,7 @@ hr{
     border-radius: 16px;
 }
 
-.bloco2SemAltura{
+.bloco2SemAltura {
     background-color: rgb(23, 206, 57);
     width: 150px;
     text-align: center;
@@ -65,7 +66,7 @@ hr{
     border-radius: 16px;
 }
 
-.bloco3SemAltura{
+.bloco3SemAltura {
     background-color: rgb(239, 244, 240);
     width: 150px;
     text-align: center;
@@ -75,7 +76,7 @@ hr{
 }
 
 
-.bloco1FontesDiferentes{
+.bloco1FontesDiferentes {
     background-color: rgb(251, 253, 253);
     height: 150px;
     width: 150px;
@@ -86,8 +87,8 @@ hr{
 
 }
 
-.bloco2FontesDiferentes{
-    background-color:rgb(25, 148, 60);
+.bloco2FontesDiferentes {
+    background-color: rgb(25, 148, 60);
     height: 150px;
     width: 150px;
     text-align: center;
@@ -97,7 +98,7 @@ hr{
 
 }
 
-.bloco3FontesDiferentes{
+.bloco3FontesDiferentes {
     background-color: rgb(228, 246, 91);
     height: 150px;
     width: 150px;
@@ -114,10 +115,10 @@ hr{
 
 /* ******* o row define o eixo principal do flexbox*******/
 
-.conteiner{
+.conteiner {
     display: flex;
     flex-direction: row;
-/* elas são indiferente para flex*/
+    /* elas são indiferente para flex*/
     background-color: blueviolet;
     padding: 16px;
     height: 500px;
@@ -125,34 +126,36 @@ hr{
 
 }
 
-.conteinerRow{
+.conteinerRow {
     display: flex;
     flex-direction: row;
-/* elas são indiferente para flex*/
+    /* elas são indiferente para flex*/
     background-color: antiquewhite;
     padding: 16px;
     height: 500px;
 
 
 }
+
 /* a propriedade é flex-direction */
 /* column e row são direções*/
 
-.conteinerColumn{
+.conteinerColumn {
     display: flex;
     flex-direction: column;
-/* elas são indiferente para flex*/
+    /* elas são indiferente para flex*/
     background-color: black;
     padding: 16px;
     height: 500px;
 
 
 }
+
 /* o row-reverse troca a ordem por exemplo: 3, 2, 1*/
-.conteinerRowReverse{
+.conteinerRowReverse {
     display: flex;
     flex-direction: row-reverse;
-/* elas são indiferente para flex*/
+    /* elas são indiferente para flex*/
     background-color: rgb(137, 118, 155);
     padding: 16px;
     height: 500px;
@@ -160,19 +163,20 @@ hr{
 
 }
 
-.conteinerColumnReverse{
+.conteinerColumnReverse {
     display: flex;
     flex-direction: column-reverse;
-/* elas são indiferente para flex*/
+    /* elas são indiferente para flex*/
     background-color: rgb(99, 158, 111);
     padding: 16px;
     height: 500px;
 
 
 }
+
 /* é importante colocar no iniciou do código*/
 
-.nomePropriedade{
+.nomePropriedade {
     font-size: 2em;
     font-weight: 500px;
     font-family: Arial, Helvetica, sans-serif;
@@ -181,10 +185,9 @@ hr{
 
 }
 
-.valorPropriedade{
-    font-size: 1,5em;
-    font-weight: 400px
-    ;
+.valorPropriedade {
+    font-size: 1, 5em;
+    font-weight: 400px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(197, 29, 29);
     padding: 30px;
@@ -193,173 +196,175 @@ hr{
 /* propriedade justify-contente */
 
 
-.justifyContentCenter{
+.justifyContentCenter {
     display: flex;
     flex-direction: row;
     justify-content: center;
-/****  propriedade center ****/
+    /****  propriedade center ****/
     background-color: rgb(99, 158, 111);
     padding: 16px;
     height: 500px;
 }
+
 /* testando o flex start (propriedade do Justify-content*/
 
-    .justifyContentFlexStart{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start; 
+.justifyContentFlexStart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 
     /**** propriedade flex-start ****/
-    
-        background-color: rgb(89, 191, 219);
-        padding: 16px;
-        height: 500px;
-    }
+
+    background-color: rgb(89, 191, 219);
+    padding: 16px;
+    height: 500px;
+}
 
 /**** testanto o flex end (propriedade do jsutify-content ******/
 
-.justifyContentFlexEnd{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end; 
+.justifyContentFlexEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 
     /**** propriedade end ****/
-    
-        background-color: rgb(9, 12, 13);
-        padding: 16px;
-        height: 500px;
-    }
 
-    /**** *****/
+    background-color: rgb(9, 12, 13);
+    padding: 16px;
+    height: 500px;
+}
 
-    .justifyContentSpaceBetween{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; 
+/**** *****/
 
-    /**** propriedades acima: disposição dos elementos ****/
-    /*** Propriedades abaixo: textura dos elementos****/
-    
-        background-color: rgb(2, 2, 2);
-        padding: 16px;
-        height: 500px;
-    }
-
-    .justifyContentSpaceEvenly{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly; 
+.justifyContentSpaceBetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
     /**** propriedades acima: disposição dos elementos ****/
     /*** Propriedades abaixo: textura dos elementos****/
-    
-        background-color: rgb(9, 12, 13);
-        padding: 16px;
-        height: 500px;
-    }
 
+    background-color: rgb(2, 2, 2);
+    padding: 16px;
+    height: 500px;
+}
 
-    .justifyContentSpaceAround{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around; 
-
-    /**** propriedades acima: disposição dos elementos ****/
-    /*** Propriedades abaixo: textura dos elementos****/
-    
-        background-color: rgb(13, 15, 16);
-        padding: 16px;
-        height: 500px;
-    }
-
-    /* nova propriedade align-items abaixo*/
-
-    .alignItemsCenter{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center; 
+.justifyContentSpaceEvenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
     /**** propriedades acima: disposição dos elementos ****/
     /*** Propriedades abaixo: textura dos elementos****/
-    
-        background-color: rgb(8, 11, 12);
-        padding: 16px;
-        height: 500px;
-    }
-/**/
 
-    .alignItemsFlexStart{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start; 
+    background-color: rgb(9, 12, 13);
+    padding: 16px;
+    height: 500px;
+}
 
-    /**** propriedades acima: disposição dos elementos ****/
-    /*** Propriedades abaixo: textura dos elementos****/
-    
-        background-color: rgb(10, 14, 16);
-        padding: 16px;
-        height: 500px;
-    }
 
-    .alignItemsFlexEnd{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-end; 
+.justifyContentSpaceAround {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
     /**** propriedades acima: disposição dos elementos ****/
     /*** Propriedades abaixo: textura dos elementos****/
-    
-        background-color: rgb(10, 16, 17);
-        padding: 16px;
-        height: 500px;
-    }
 
-/*  nova propriedade Strech */
+    background-color: rgb(13, 15, 16);
+    padding: 16px;
+    height: 500px;
+}
 
-    .alignItemsStrech{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: stretch; 
+/* nova propriedade align-items abaixo*/
 
-    /**** propriedades acima: disposição dos elementos ****/
-    /*** Propriedades abaixo: textura dos elementos****/
-    
-        background-color: rgb(8, 14, 16);
-        padding: 16px;
-        height: 500px;
-    }
-
-
-
-    .alignItemsBaseline{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: baseline; 
-
-    /**** propriedades acima: disposição dos elementos ****/
-    /*** Propriedades abaixo: textura dos elementos****/
-    
-        background-color: rgb(8, 14, 16);
-        padding: 16px;
-        height: 500px;
-    }
-
-/* nova propriedade Flex Wrap / valor: nowrap */
-
-.conteinerFlexWrap{
+.alignItemsCenter {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+
+    background-color: rgb(8, 11, 12);
+    padding: 16px;
+    height: 500px;
+}
+
+/**/
+
+.alignItemsFlexStart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+
+    background-color: rgb(10, 14, 16);
+    padding: 16px;
+    height: 500px;
+}
+
+.alignItemsFlexEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+
+    background-color: rgb(10, 16, 17);
+    padding: 16px;
+    height: 500px;
+}
+
+/*  nova propriedade Strech */
+
+.alignItemsStrech {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+
+    background-color: rgb(8, 14, 16);
+    padding: 16px;
+    height: 500px;
+}
+
+
+
+.alignItemsBaseline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+
+    background-color: rgb(8, 14, 16);
+    padding: 16px;
+    height: 500px;
+}
+
+/* nova propriedade Flex Wrap / valor: nowrap */
+
+.conteinerFlexWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
 
-/**** propriedades acima: disposição dos elementos ****/
-/*** Propriedades abaixo: textura dos elementos****/
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
 
     background-color: rgb(8, 14, 16);
     padding: 16px;
@@ -368,15 +373,15 @@ hr{
 
 /*Flex Wrap / valor: wrap*/
 
-.conteinerFlexWrapWRap{
+.conteinerFlexWrapWRap {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-wrap: wrap;
 
-/**** propriedades acima: disposição dos elementos ****/
-/*** Propriedades abaixo: textura dos elementos****/
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
 
     background-color: rgb(8, 14, 16);
     padding: 16px;
@@ -386,15 +391,15 @@ hr{
 /* Baseline e Wrap*/
 
 
-.conteinerFlexWrapWRapBaseline{
+.conteinerFlexWrapWRapBaseline {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: baseline; 
+    align-items: baseline;
     flex-wrap: wrap;
 
-/**** propriedades acima: disposição dos elementos ****/
-/*** Propriedades abaixo: textura dos elementos****/
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
 
     background-color: rgb(8, 14, 16);
     padding: 16px;
@@ -402,15 +407,15 @@ hr{
 }
 
 
-.conteinerFlexWRapReverse{
+.conteinerFlexWRapReverse {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-wrap: wrap-reverse;
 
-/**** propriedades acima: disposição dos elementos ****/
-/*** Propriedades abaixo: textura dos elementos****/
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
 
     background-color: rgb(8, 14, 16);
     padding: 16px;
@@ -422,18 +427,18 @@ hr{
 /* Novas propriedades */
 
 
-.conteinerAlignContent{
+.conteinerAlignContent {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-wrap: wrap;
     align-content: center;
-   
 
 
-/**** propriedades acima: disposição dos elementos ****/
-/*** Propriedades abaixo: textura dos elementos****/
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
 
     background-color: rgb(8, 14, 16);
     padding: 16px;
@@ -441,18 +446,18 @@ hr{
 }
 
 
-.conteinerAlignContentFlexStart{
+.conteinerAlignContentFlexStart {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-wrap: wrap;
     align-content: flex-start;
-   
 
 
-/**** propriedades acima: disposição dos elementos ****/
-/*** Propriedades abaixo: textura dos elementos****/
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
 
     background-color: rgb(8, 14, 16);
     padding: 16px;
@@ -460,18 +465,18 @@ hr{
 }
 
 
-.conteinerAlignContentFlexEnd{
+.conteinerAlignContentFlexEnd {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-wrap: wrap;
     align-content: flex-end;
-   
 
 
-/**** propriedades acima: disposição dos elementos ****/
-/*** Propriedades abaixo: textura dos elementos****/
+
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
 
     background-color: rgb(8, 14, 16);
     padding: 16px;
@@ -479,17 +484,97 @@ hr{
 }
 
 
+/******    Valores: Space-between   *******/
 /******       *******/
-/******       *******/
+
+.conteinerAlignContentSpaceBetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
 
 
 
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+
+    background-color: rgb(8, 14, 16);
+    padding: 16px;
+    height: 500px;
+}
+
+.conteinerAlignContentSpaceEvenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
 
 
 
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+
+    background-color: rgb(8, 14, 16);
+    padding: 16px;
+    height: 500px;
+}
+
+
+.conteinerAlignContentSpaceAround {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
 
 
 
+    /**** propriedades acima: disposição dos elementos ****/
+    /*** Propriedades abaixo: textura dos elementos****/
+
+    background-color: rgb(8, 14, 16);
+    padding: 16px;
+    height: 500px;
+}
+
+/*CSS do cabeçalho apartir daqui*/
+
+.flexbox ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.flexbox li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 
+    background-color: rgb(23, 129, 150);
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    list-style: none;
+    border: 4px solid rgb(19, 18, 18);
 
+}
+
+.flexbox a {
+    text-decoration: none;
+
+}
+
+.flexbox a:hover{
+    color: rgb(235, 235, 238);
+    
+}
